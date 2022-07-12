@@ -1,0 +1,31 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Proyect Gulp, SASS y html",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauricioiaria/AppFestival.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp"
+  ],
+  "author": "Mauricio Iaria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauricioiaria/AppFestival/issues"
+  },
+  "homepage": "https://github.com/mauricioiaria/AppFestival#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.52.2"
+  },
+  "dependencies": {
+    "gulp-webp": "^4.0.1"
+  }
+}
